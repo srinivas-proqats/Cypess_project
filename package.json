@@ -1,12 +1,17 @@
 {
   "name": "project_cypress",
+  "private":"true",
+  "repository": {
+    "url": "https://github.com/srinivas-proqats/Cypess_project",
+    "type": "git"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "cypress:single": "cypress run --spec"
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run",
+    "cypress:single": "npx cypress run --spec"
   },
   "author": "Srinivas",
   "license": "ISC",
